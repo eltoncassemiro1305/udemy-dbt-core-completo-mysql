@@ -7,7 +7,7 @@
 
 with orders as (
     select
-        orderNumber,
+        orderNumber as orderNumber,
         orderDate,
         requiredDate,
         shippedDate,
@@ -20,4 +20,4 @@ with orders as (
 
 select
   *
-from orders
+from orders 
