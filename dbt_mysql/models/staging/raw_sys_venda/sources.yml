@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: sys_venda
+    description: "Dados brutos do sistema vendas"
+    schema: raw_sys_venda
+
+    tables:
+      - name: orders
+        description: "tabela de pedidos do sistema vendas"
+        columns:
+          - name: orderNumber
+            description: "id do pedido"
+            tests:
+              - unique
+              - not_null
+          - name: orderDate
+            description: "data do pedido"
+          - name: requiredDate
+            description: "data requirimento do pedido"
+          - name: shippedDate
+            description: "descricao do pedido"
+          - name: status
+            description: "status do pedido"
+          - name: comments
+            description: "comentario do pedido"
+          - name: customerNumber
+            description: "id cliente do pedido"
+            
+
+      - name: customers
+      - name: products
+
+        
