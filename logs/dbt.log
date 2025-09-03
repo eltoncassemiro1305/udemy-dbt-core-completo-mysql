@@ -1,0 +1,46 @@
+[0m11:19:44.792164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E5484C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E5484C080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E5484C350>]}
+
+
+============================== 11:19:44.797118 | 0cc7e6ec-e002-415d-8b1d-9638a2a2e24a ==============================
+[0m11:19:44.797118 [info ] [MainThread]: Running with dbt=1.7.19
+[0m11:19:44.798116 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\elton\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:19:56.633638 [debug] [MainThread]: Starter project path: C:\Projetos\udemy-dbt-core-completo-mysql\dbt-venv\Lib\site-packages\dbt\include\starter_project
+[0m11:19:56.675821 [info ] [MainThread]: 
+Your new dbt project "dbt_mysql" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:19:56.678999 [info ] [MainThread]: Setting up your profile.
+[0m11:20:02.701588 [debug] [MainThread]: Command `dbt init` succeeded at 11:20:02.701588 after 18.03 seconds
+[0m11:20:02.701867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E54624FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E544B33E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E5484C080>]}
+[0m11:20:02.702590 [debug] [MainThread]: Flushing usage events
+[0m12:22:46.827446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D293BC3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D293BC0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D293BC530>]}
+
+
+============================== 12:22:46.833446 | cb18963b-40c1-4dc3-b95c-fb647d9d9415 ==============================
+[0m12:22:46.833446 [info ] [MainThread]: Running with dbt=1.7.19
+[0m12:22:46.834448 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\elton\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:22:46.835450 [info ] [MainThread]: dbt version: 1.7.19
+[0m12:22:46.836446 [info ] [MainThread]: python version: 3.12.1
+[0m12:22:46.836499 [info ] [MainThread]: python path: C:\Projetos\udemy-dbt-core-completo-mysql\dbt-venv\Scripts\python3.exe
+[0m12:22:46.837444 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m12:22:46.957565 [info ] [MainThread]: Using profiles dir at C:\Users\elton\.dbt
+[0m12:22:46.958952 [info ] [MainThread]: Using profiles.yml file at C:\Users\elton\.dbt\profiles.yml
+[0m12:22:46.959535 [info ] [MainThread]: Using dbt_project.yml file at C:\Projetos\udemy-dbt-core-completo-mysql\dbt_project.yml
+[0m12:22:46.960649 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m12:22:46.961537 [debug] [MainThread]: Command `dbt debug` failed at 12:22:46.961537 after 0.23 seconds
+[0m12:22:46.962561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D28A1C9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D293EB500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018D293EBDA0>]}
+[0m12:22:46.962996 [debug] [MainThread]: Flushing usage events
