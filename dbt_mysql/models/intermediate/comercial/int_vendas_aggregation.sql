@@ -11,7 +11,7 @@ with orders as (
         stg_order_details.priceEach as total
     from {{ ref('stg_orders') }} as stg_orders
 	inner join {{ ref('stg_order_details') }} as stg_order_details
-	on a.orderNumber = b.orderNumber 
+	on stg_orders.orderNumber = stg_order_details.orderNumber 
 )
 
 , vendas as (
