@@ -27,8 +27,15 @@ sources:
           - name: customerNumber
             description: "id cliente do pedido"
             
+      - name: orderdetails
+        description: "tabela de detalhes do pedidos do sistema vendas"
+        columns:
+          - name: orderNumber
+          - name: productCode
+          - name: quantityOrdered
+          - name: priceEach
+          - name: orderLineNumber
 
-      - name: customers
       - name: products
 
         
