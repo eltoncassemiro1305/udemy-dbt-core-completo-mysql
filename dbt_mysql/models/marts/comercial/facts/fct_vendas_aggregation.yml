@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: fct_vendas_aggregation
+    description: "Fato de vendas aggregation da empresa"
+
+    columns:
+      - name: mes
+        description: "Mês da venda"
+        tests:
+          - not_null        
+      - name: ano
+        description: "Ano da venda"        
+      - name: total
+        description: "Total da venda"
+        tests: 
+          - not_null
+          
+
